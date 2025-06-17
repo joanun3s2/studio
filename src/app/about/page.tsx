@@ -47,14 +47,14 @@ export default function AboutPage() {
             </div>
 
             <div className="lg:col-span-2">
-              <h3 className="font-headline text-2xl md:text-3xl font-semibold_TEMP_mb-6_TEMP_text-foreground">My Journey & Philosophy</h3>
+              <h3 className="font-headline text-2xl md:text-3xl font-semibold_TEMP_mb-6_TEMP_text-foreground pb-1">My Journey & Philosophy</h3>
               <div className="space-y-4 text-muted-foreground text-base md:text-lg">
                 {aboutMeData.professionalSummary.map((paragraph, index) => (
                   <p key={index}>{paragraph}</p>
                 ))}
               </div>
 
-              <h3 className="font-headline text-2xl md:text-3xl font-semibold_TEMP_mt-12_TEMP_mb-6_TEMP_text-foreground">Core Skills</h3>
+              <h3 className="font-headline text-2xl md:text-3xl font-semibold_TEMP_mt-12_TEMP_mb-6_TEMP_text-foreground pt-5 pb-2">Core Skills</h3>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 text-muted-foreground">
                 {aboutMeData.skills.map((skill, index) => (
                   <li key={index} className="flex items-center">

@@ -44,7 +44,7 @@ export default function InquiryForm() {
           title: "Success!",
           description: result.message,
         });
-        reset(); // Clear form fields on successful submission
+        reset();
       } else {
         toast({
           title: "Error",

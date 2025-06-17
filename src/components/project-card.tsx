@@ -40,14 +40,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         {project.liveDemoLink && (
           <Button asChild variant="outline" size="sm" className="w-full sm:w-auto">
             <Link href={project.liveDemoLink} target="_blank" rel="noopener noreferrer">
-              <ExternalLink className="mr-2 h-4 w-4" /> Live Demo
-            </Link>
-          </Button>
-        )}
-        {project.githubLink && (
-          <Button asChild variant="ghost" size="sm" className="w-full sm:w-auto">
-            <Link href={project.githubLink} target="_blank" rel="noopener noreferrer">
-              <Github className="mr-2 h-4 w-4" /> View Code
+              <ExternalLink className="mr-2 h-4 w-4" /> Visit company page
             </Link>
           </Button>
         )}

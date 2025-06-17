@@ -13,9 +13,9 @@ export default function ProjectsPage() {
       <section className="bg-secondary/30 py-16 md:py-24">
         <div className="container text-center">
           <Briefcase className="h-16 w-16 text-primary mx-auto mb-4" />
-          <h1 className="font-headline text-4xl md:text-5xl font-bold mb-4 text-gradient-primary">My Portfolio</h1>
+          <h1 className="font-headline text-4xl md:text-5xl font-bold mb-4 text-gradient-primary pb-1">My Portfolio</h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Here's a collection of projects I've worked on, demonstrating my skills and experience in various technologies.
+            Here's a collection of projects and companies I've worked with and contributed to in the past few years.
           </p>
         </div>
       </section>

@@ -1,4 +1,5 @@
 import InquiryForm from '@/components/inquiry-form';
+import { contactMeData } from '@/lib/data';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
 export const metadata = {
@@ -14,7 +15,7 @@ export default function ContactPage() {
           <Mail className="h-16 w-16 text-primary mx-auto mb-4" />
           <h1 className="font-headline text-4xl md:text-5xl font-bold mb-4 text-gradient-primary">Get In Touch</h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Have a project in mind or just want to say hi? I'd love to hear from you.
+            Have a project or job opporotunity in mind or just want to say hi? I'd love to hear from you.
           </p>
         </div>
       </section>
@@ -24,35 +25,39 @@ export default function ContactPage() {
           <div className="lg:col-span-2">
             <InquiryForm />
           </div>
+
+          {contactMeData ? (
           <div className="lg:col-span-1 space-y-8 animate-slide-in-up" style={{ animationDelay: '0.2s' }}>
             <div>
               <h3 className="font-headline text-xl font-semibold_TEMP_mb-3_TEMP_text-foreground">Contact Information</h3>
-              <div className="space-y-3 text-muted-foreground">
-                <p className="flex items-center">
-                  <Mail className="h-5 w-5 text-primary mr-3" />
-                  <span>your.email@example.com</span>
-                </p>
-                <p className="flex items-center">
-                  <Phone className="h-5 w-5 text-primary mr-3" />
-                  <span>(555) 123-4567 (Optional)</span>
-                </p>
-                <p className="flex items-center">
-                  <MapPin className="h-5 w-5 text-primary mr-3" />
-                  <span>Your City, Country (Optional)</span>
-                </p>
-              </div>
+                <div className="space-y-3 text-muted-foreground"> 
+                  <p className="flex items-center">
+                    <Mail className="h-5 w-5 text-primary mr-3" />
+                    <span>{contactMeData.email}</span>
+                  </p>
+                  <p className="flex items-center">
+                    <Phone className="h-5 w-5 text-primary mr-3" />
+                    <span>{contactMeData.phone}</span>
+                  </p>
+                  <p className="flex items-center">
+                    <MapPin className="h-5 w-5 text-primary mr-3" />
+                    <span>{contactMeData.address}</span>
+                  </p>      
+                </div>
             </div>
             <div>
               <h3 className="font-headline text-xl font-semibold_TEMP_mb-3_TEMP_text-foreground">Office Hours</h3>
               <p className="text-muted-foreground">
-                Monday - Friday: 9:00 AM - 6:00 PM <br/>
-                (Your Timezone)
+                {contactMeData.officeHours}
               </p>
               <p className="text-sm text-muted-foreground mt-2">
-                Feel free to reach out anytime. I typically respond within 24 hours.
+               {contactMeData.responseTime}
               </p>
             </div>
           </div>
+          ) : (
+            <p>Loading...</p>
+          )}
         </div>
       </section>
     </div>

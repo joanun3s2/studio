@@ -6,13 +6,12 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import ProjectCard from '@/components/project-card';
 import TestimonialCard from '@/components/testimonial-card';
 import TechBadge from '@/components/tech-badge';
-import { projectsData, testimonialsData, techStackData, aboutMeData } from '@/lib/data';
-import { ArrowRight, MessageSquare, Briefcase, Download, Star, Send } from 'lucide-react';
+import { projectsData, testimonialsData, techStackData, aboutMeData } from '@/lib/data'; import { ArrowRight, MessageSquare, Briefcase, Download, Star, Send } from 'lucide-react';
 
 export default function HomePage() {
-  const featuredProjects = projectsData.slice(0, 2);
+  const featuredProjects = projectsData.slice(0, 2); 
   const featuredTestimonials = testimonialsData.slice(0, 2);
-  const featuredTech = techStackData.filter(t => ['React', 'Next.js', 'Node.js', 'Python', 'Firebase', 'Tailwind CSS'].includes(t.name));
+  const featuredTech = techStackData.filter(tech => ['React',' Angular', 'Next.js', 'Nodejs', 'Angular', 'Firebase', 'Tailwind CSS'].includes(tech.name));
 
   return (
     <div className="animate-fade-in">
@@ -114,7 +113,7 @@ export default function HomePage() {
            <div className="text-center mt-12">
             <Button asChild variant="link" className="text-primary hover:text-accent text-lg">
               <Link href="/tech-stack">
-                Explore Full Tech Stack <ArrowRight className="ml-2 h-5 w-5" />
+                Explore full techs <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
           </div>
@@ -138,7 +137,7 @@ export default function HomePage() {
           <div className="text-center mt-12">
             <Button asChild variant="link" className="text-primary hover:text-accent text-lg">
               <Link href="/testimonials">
-                Read More Testimonials <Star className="ml-2 h-5 w-5" />
+                Read more <Star className="ml-2 h-5 w-5" />
               </Link>
             </Button>
           </div>
@@ -154,7 +153,7 @@ export default function HomePage() {
           </p>
           <Button asChild size="lg" variant="outline" className="bg-background/20 hover:bg-background/30 border-primary-foreground text-primary-foreground hover:text-primary-foreground shadow-lg transform hover:scale-105 transition-transform duration-300">
             <Link href="/contact">
-              Contact Me Now <Send className="ml-2 h-5 w-5" />
+              Contact now <Send className="ml-2 h-5 w-5" />
             </Link>
           </Button>
         </div>

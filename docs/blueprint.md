@@ -2,12 +2,12 @@
 
 ## Core Features:
 
-- Project Gallery: Interactive showcase of completed projects with descriptions, technologies used, and links to live demos or GitHub repositories.
-- Tech Stack Showcase: Dedicated section displaying my technology stack expertise with interactive elements or badges for each technology.
+- Project Gallery: Interactive showcase of worked projects with descriptions, technologies used, and links to live demos or GitHub repositories if available.
+- Tech Stack Showcase: Dedicated section displaying technology stack expertise with interactive elements or badges for each technology.
 - Inquiry Form: Contact form for potential clients to submit project inquiries, including fields for their name, email, project description, and budget. Includes a recap of the submitted info, created as a tool using AI to confirm understanding. 
-- Testimonials: Dynamic testimonials section featuring client feedback with star ratings.
+- Testimonials: Dynamic testimonials section featuring client/colleagues feedback with star ratings.
 - Personal Introduction: About Me section with my professional summary and headshot, designed as an easily updatable static page.
-- Call to Action Buttons: Clear call-to-action buttons encouraging visitors to contact me, view my portfolio, or download my resume.
+- Call to Action Buttons: Clear call-to-action buttons encouraging visitors to contact, view portfolio, or download my resume.
 
 ## Style Guidelines:
 

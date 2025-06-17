@@ -13,9 +13,9 @@ export default function TestimonialsPage() {
       <section className="bg-secondary/30 py-16 md:py-24">
         <div className="container text-center">
           <Star className="h-16 w-16 text-primary mx-auto mb-4" />
-          <h1 className="font-headline text-4xl md:text-5xl font-bold mb-4 text-gradient-primary">Client Accolades</h1>
+          <h1 className="font-headline text-4xl md:text-5xl font-bold mb-4 text-gradient-primary pb-1">Colleagues Accolades</h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Hear what my clients have to say about their experience working with me.
+            Hear what people I've worked with have to say about their experience working with me.
           </p>
         </div>
       </section>
