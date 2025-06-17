@@ -5,8 +5,8 @@ import AppHeader from '@/components/layout/header';
 import AppFooter from '@/components/layout/footer';
 
 export const metadata: Metadata = {
-  title: 'Code Canvas | Web & Mobile Development',
-  description: 'Portfolio and client showcase for a passionate web and mobile developer.',
+  title: 'My studio | Web & Mobile Development',
+  description: 'Portfolio and client showcase by a passionate web and mobile developer.',
 };
 
 export default function RootLayout({

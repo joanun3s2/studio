@@ -8,17 +8,14 @@ export default function AppFooter() {
     <footer className="border-t border-border/40 bg-background">
       <div className="container py-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-sm text-muted-foreground">
-          &copy; {currentYear} Code Canvas. All rights reserved.
+          &copy; {currentYear} My studio. Some rights reserved.
         </p>
         <div className="flex items-center gap-4">
-          <Link href="#" aria-label="GitHub" className="text-muted-foreground hover:text-primary transition-colors">
+          <Link href="https://github.com/joanun3s2" aria-label="GitHub" className="text-muted-foreground hover:text-primary transition-colors">
             <Github className="h-5 w-5" />
           </Link>
-          <Link href="#" aria-label="LinkedIn" className="text-muted-foreground hover:text-primary transition-colors">
+          <Link href="www.linkedin.com/in/joao-paulo-nunes-de-lima-62577715a" aria-label="LinkedIn" className="text-muted-foreground hover:text-primary transition-colors">
             <Linkedin className="h-5 w-5" />
-          </Link>
-          <Link href="#" aria-label="Twitter" className="text-muted-foreground hover:text-primary transition-colors">
-            <Twitter className="h-5 w-5" />
           </Link>
         </div>
       </div>

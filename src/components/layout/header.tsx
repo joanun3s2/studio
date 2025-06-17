@@ -27,7 +27,7 @@ export default function AppHeader() {
         <div className="container flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold text-gradient-primary">
             <Feather className="h-6 w-6" />
-            <span>Code Canvas</span>
+            <span>My studio</span>
           </Link>
           <div className="h-8 w-8 rounded-md bg-muted animate-pulse"></div>
         </div>
@@ -40,7 +40,7 @@ export default function AppHeader() {
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold text-gradient-primary">
           <Feather className="h-6 w-6" />
-          <span>Code Canvas</span>
+          <span>My studio</span>
         </Link>
 
         <nav className="hidden md:flex gap-2">
@@ -71,7 +71,7 @@ export default function AppHeader() {
               <div className="flex flex-col gap-6">
                 <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold text-gradient-primary" onClick={closeSheet}>
                   <Feather className="h-6 w-6" />
-                  <span>Code Canvas</span>
+                  <span>My studio</span>
                 </Link>
                 <nav className="flex flex-col gap-4">
                   {navItems.map((item) => (

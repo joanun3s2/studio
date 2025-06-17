@@ -39,11 +39,13 @@ export default function AboutPage() {
               </div>
               <h2 className="font-headline text-2xl font-semibold_TEMP_text-center_TEMP_mb-2">{aboutMeData.name}</h2>
               <p className="text-muted-foreground text-center_TEMP_mb-6">{aboutMeData.title}</p>
+
+              {/* This will be worked in ST-04
               <Button asChild className="w-full max-w-xs bg-accent hover:bg-accent/90 text-accent-foreground">
                 <Link href={aboutMeData.resumeUrl} target="_blank" download>
                   Download My Resume <Download className="ml-2 h-4 w-4" />
                 </Link>
-              </Button>
+              </Button> */}
             </div>
 
             <div className="lg:col-span-2">
