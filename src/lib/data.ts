@@ -97,7 +97,27 @@ export const testimonialsData: Testimonial[] = [
       "The attention to detail and commitment to quality are outstanding. As a designer I love to see my creations come to life as requested.",
     rating: 4,
     clientImage: "https://placehold.co/100x100.png",
-    clientImageHint: "smiling man",
+    clientImageHint: "Johnny Smith",
+  },
+  {
+    id: "3",
+    clientName: "Gilberto",
+    company: "Cloud++",
+    feedback:
+      "Working with João has always been a wonderful experience because he is a good developer, a great friend, and a wonderful person. Always willing to help and listen, always offering fair and thoughtful opinions, and always considering the details that truly matter.",
+    rating: 5,
+    clientImage: "https://media.licdn.com/dms/image/v2/C4E03AQGjL9kHaA-QJw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1585686258870?e=1755734400&v=beta&t=Fqju_r5e_WFWgknFXdDAUyQIojjCidwuTx2WhWncCmc",
+    clientImageHint: "Gilberto",
+  },
+  {
+    id: "4",
+    clientName: "João Rock",
+    company: "Cloud++",
+    feedback:
+      "I highly recommend João Nunes as a talented and driven software developer. He combines strong technical skills with a passion for clean code, a great team spirit, and a genuine eagerness to learn. João consistently delivers high-quality work and quickly adapts to new challenges, making him a valuable asset to any team.",
+    rating: 5,
+    clientImage: "https://media.licdn.com/dms/image/v2/D4D03AQGopfF4sy8_cg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1680540338545?e=1755734400&v=beta&t=xcOQlLdB--7nAKOyjuNv2PqZo6-27eep-zca2pN22A4",
+    clientImageHint: "João Rock",
   },
 ];
 
